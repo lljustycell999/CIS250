@@ -1,0 +1,83 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 package cis.pkg250.lab.pkg06;\
+\
+public class Queue \{\
+    \
+    private int front; \
+    private int back;\
+    private Element [ ] theElements;\
+    \
+    public void Create(int specifiedCapacity) \{\
+\
+        theElements = new Element [specifiedCapacity + 1];\
+        front = 0;\
+        back = 0;\
+        \
+    \}\
+    \
+    public void Destroy( ) \{\
+\
+        for(int cnt = 0; cnt < theElements.length; cnt++)\
+            theElements[cnt] = null;\
+        \
+        theElements = null;\
+        front = -100;\
+        back = -200;\
+        \
+    \}\
+    \
+    public void Enqueue(Element givenElement) \{\
+\
+        theElements[back] = givenElement.Clone( );\
+        back++;\
+        if(back == theElements.length)\
+            back = 0;\
+        \
+    \}\
+    \
+    public Element Dequeue( ) \{\
+\
+        Element returnElement;\
+        \
+        returnElement = theElements[front];\
+\
+        front = (front + 1) % theElements.length;\
+        \
+        return returnElement;\
+        \
+    \}\
+    \
+    public boolean IsEmpty( ) \{\
+        \
+        boolean empty;\
+        \
+        if(front == back)\
+            empty = true;\
+        else\
+            empty = false;\
+        \
+        return empty;\
+        \
+    \}\
+    \
+    public boolean IsFull( ) \{\
+        \
+        boolean full;\
+        \
+        if((back + 1) % theElements.length == front)\
+            full = true;\
+        else\
+            full = false;\
+        \
+        return full;\
+        \
+    \}\
+         \
+\}\
+ }

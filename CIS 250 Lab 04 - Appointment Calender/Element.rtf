@@ -1,0 +1,114 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 package cis.pkg250.lab.pkg04;\
+\
+public class Element \{\
+    \
+    private String description;\
+    private String dateTime;\
+    private String duration;\
+    private String priority;\
+    private String location;\
+    private String comment;\
+    \
+    public void SetDescription(String userDescription) \{\
+        \
+        description = userDescription;\
+        \
+    \}\
+    \
+    public void SetDateTime(String userDateTime) \{\
+        \
+        dateTime = userDateTime;\
+        \
+    \}\
+    \
+    public void SetDuration(String userDuration) \{\
+        \
+        duration = userDuration;\
+        \
+    \}\
+    \
+    public void SetPriority(String userPriority) \{\
+        \
+        priority = userPriority;\
+        \
+    \}\
+    \
+    public void SetLocation(String userLocation) \{\
+        \
+        location = userLocation;\
+        \
+    \}\
+    \
+    public void SetComment(String userComment) \{\
+        \
+        comment = userComment;\
+        \
+    \}\
+    \
+    public String GetDescription( ) \{\
+        \
+        return description;\
+    \}\
+    \
+    public String GetDateTime( ) \{\
+        \
+        return dateTime;\
+        \
+    \}\
+    \
+    public String GetDuration( ) \{\
+        \
+        return duration;\
+        \
+    \}\
+    \
+    public String GetPriority( ) \{\
+        \
+        return priority;\
+        \
+    \}\
+    \
+    public String GetLocation( ) \{\
+        \
+        return location;\
+        \
+    \}\
+    \
+    public String GetComment( ) \{\
+        \
+        return comment;\
+        \
+    \}\
+    \
+    public Element Clone( ) \{\
+        \
+        Element temp;\
+        \
+        temp = new Element( );\
+        \
+        temp.SetDescription(description);\
+        temp.SetDateTime(dateTime);\
+        temp.SetDuration(duration);\
+        temp.SetPriority(priority);\
+        temp.SetLocation(location);\
+        temp.SetComment(comment);\
+        \
+        return temp;\
+        \
+    \}\
+    \
+    public String GetKey( ) \{\
+        \
+        return description;\
+        \
+    \}\
+    \
+\}\
+}

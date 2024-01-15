@@ -1,0 +1,245 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 package cis.pkg250.lab.pkg02;\
+\
+import java.util.Scanner;\
+import java.io.*;\
+\
+//  NAME:           Justyce Countryman\
+//\
+//  Due Date:       Friday February 18, 2022\
+//\
+//  Project Name:   Laboratory 02   \
+//\
+//  Program Description: This program will manage pie orders. The program is\
+//  menu-driven and will allow the user to add or remove item quantities for \
+//  specific pies to or from a customer order. With either option, the program \
+//  will request a valid product number and quantity. Then, the program will \
+//  ask if the user is done creating the customer order. If the user is not \
+//  done, the program will keep asking for valid product numbers and quantities\
+//  to add or remove until the user is done. Once done, an order summary \
+//  reciept will be displayed that includes the charges of each desired pie, \
+//  the subtotal, the tax, and the total due. After that, all quantities will \
+//  be reset back to zero for the next customer order. Finally, the user will \
+//  be asked to either start another customer order or quit the program. As a \
+//  result, the user can process as many customers as desired. Error handling \
+//  for product number and quantity input will be applied. \
+// \
+//  Project Number:  Project 02\
+\
+public class CIS250Lab02 \{\
+\
+    public static void main(String[] args) throws IOException \{\
+        \
+        Pies [ ] theOrder;\
+        \
+        //Manage Orders\
+        theOrder = new Pies [5];\
+        \
+        LoadItems(theOrder);\
+        ProcessEveryOrder(theOrder);\
+        \
+    \}\
+    \
+    public static void LoadItems(Pies [ ] theOrder) throws IOException \{\
+        \
+        int numPies;\
+        File productFile;\
+        Scanner productFileSC;\
+        \
+        //Load Items\
+        numPies = 0;\
+        productFile = new File("pieInventory.txt");\
+        productFileSC = new Scanner(productFile);\
+        while(numPies < theOrder.length && productFileSC.hasNext( )) \{\
+            \
+            theOrder[numPies] = new Pies( );\
+            \
+            theOrder[numPies].LoadInfo(productFile, productFileSC);\
+            numPies++;\
+              \
+        \}\
+        productFileSC.close( );\
+        \
+    \}\
+    \
+    public static void ProcessEveryOrder(Pies [ ] theOrder) \{\
+        \
+        char userChoice;\
+        \
+        //Process Every Order\
+        userChoice = 'Z';\
+        while(userChoice != 'Q') \{\
+            \
+            ProcessAnOrder(theOrder);\
+            ProduceReciept(theOrder);\
+            ResetQuantities(theOrder);\
+            userChoice = GetUserChoice( );\
+                    \
+        \}\
+        \
+    \}\
+    \
+    public static void ProcessAnOrder(Pies [ ] theOrder) \{\
+        \
+        char orderDone;\
+        char orderChoice;\
+        int itemNumber;\
+        int quantity;\
+        \
+        //Process an Order\
+        orderDone = 'G';\
+        while(orderDone != 'Y') \{\
+            \
+            orderChoice = GetChoice( );\
+            itemNumber = GetItemNumber( );\
+            quantity = GetQuantity( );\
+            if(orderChoice == 'A')\
+                theOrder[itemNumber].IncreaseQuantity(quantity);\
+            else\
+                theOrder[itemNumber].DecreaseQuantity(quantity);\
+            orderDone = GetOrderDone( );\
+            \
+        \}\
+        \
+    \}\
+    \
+    public static char GetChoice( ) \{\
+        \
+        char orderChoice;\
+        Scanner kbd = new Scanner(System.in);\
+        \
+        //Get Choice\
+        orderChoice = 'P';\
+        while(orderChoice != 'A' && orderChoice != 'R') \{\
+            \
+            System.out.print("What would you like to do: Add an item quantity"\
+                + " to the customer order [A] or Remove an item quantity from "\
+                    + "the customer order [R]?  "); //to user\
+            orderChoice = kbd.nextLine( ).toUpperCase( ).charAt(0); //from user\
+            \
+        \}\
+        System.out.println( );\
+        return orderChoice;\
+        \
+    \}\
+    \
+    public static int GetItemNumber( ) \{\
+        \
+        int itemNumber;\
+        Scanner kbd = new Scanner(System.in);\
+        \
+        //Get Item Number\
+        itemNumber = 9;\
+        while(itemNumber != 0 && itemNumber != 1 && itemNumber != 2 && \
+            itemNumber != 3 && itemNumber != 4) \{\
+            \
+            System.out.print("Enter a VALID item number (0-4):  "); //to user\
+            itemNumber = kbd.nextInt( ); //from user\
+            \
+        \}\
+        return itemNumber;\
+       \
+    \}\
+    \
+    public static int GetQuantity( ) \{\
+        \
+        int quantity;\
+        Scanner kbd = new Scanner(System.in);\
+        \
+        //Get Quantity\
+        quantity = -1;\
+        while(quantity < 0) \{\
+            \
+            System.out.print("Enter a POSITIVE quantity:  "); //to user\
+            quantity = kbd.nextInt( ); //from user\
+            \
+        \}\
+        System.out.println( );\
+        return quantity;\
+        \
+    \}\
+    \
+    public static char GetOrderDone( ) \{\
+        \
+        char orderDone;\
+        Scanner kbd = new Scanner(System.in);\
+       \
+        //Get Order Done\
+        orderDone = 'P';\
+        while(orderDone != 'Y' && orderDone != 'N') \{\
+            \
+            System.out.print("Are you done adding items and quantities to this "\
+                + "customer order (Y/N)?  "); //to user\
+            orderDone = kbd.nextLine( ).toUpperCase( ).charAt(0); //from user\
+        \
+        \}\
+        System.out.println( );\
+        return orderDone;\
+        \
+    \}\
+    \
+    public static void ProduceReciept(Pies [ ] theOrder) \{\
+        \
+        double subtotal;\
+        double tax;\
+        double total;\
+        \
+        //Produce Reciept\
+        subtotal = 0.00;\
+        System.out.printf("%-20s%-20s%-20s%-20s\\n", "Quantity", \
+            "Description", "Price", "Extended Cost"); //to user\
+        for(int cnt = 0; cnt < 5; cnt++) \{\
+            \
+            if(theOrder[cnt].GetQuantity( ) > 0) \{\
+                \
+                theOrder[cnt].DisplayProductItemSummary( );\
+                theOrder[cnt].GetExtendedCost( );\
+                subtotal = subtotal + theOrder[cnt].GetExtendedCost( );\
+            \
+            \}\
+            \
+        \}\
+        tax = subtotal * 0.08;\
+        total = subtotal + tax;\
+        System.out.println( );\
+        System.out.printf("%-1s%-1.2f\\n", "Subtotal: ", subtotal); //to user\
+        System.out.printf("%-1s%-1.2f\\n", "Tax (8.0%): ", tax); //to user\
+        System.out.printf("%-1s%-1.2f\\n", "Total Due: ", total); //to user\
+        System.out.println( );\
+        \
+    \}\
+    \
+    public static void ResetQuantities(Pies [ ] theOrder) \{\
+        \
+        //Reset Quantities\
+        for(int cnt = 0; cnt < 5; cnt++)  \
+            theOrder[cnt].ResetQuantity( );\
+                  \
+    \}\
+    \
+    public static char GetUserChoice( ) \{\
+        \
+        char userChoice;\
+        Scanner kbd = new Scanner(System.in);\
+        \
+        //Get User Choice\
+        userChoice = 'S';\
+        while(userChoice != 'P' && userChoice != 'Q') \{\
+            \
+            System.out.print("Would you like to process another customer order "\
+                + "[P] or quit the program [Q]?  "); //to user\
+            userChoice = kbd.nextLine( ).toUpperCase( ).charAt(0); //from user\
+            \
+        \}\
+        System.out.println( );\
+        return userChoice;\
+        \
+    \}\
+    \
+\}}
