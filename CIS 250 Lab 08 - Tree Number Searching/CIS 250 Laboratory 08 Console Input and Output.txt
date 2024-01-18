@@ -1,0 +1,34 @@
+run:
+Enter a string integer to search for:  008000
+We looked through 16 levels in the tree
+008000              
+
+Are you done (Y/N):  N
+
+Enter a string integer to search for:  197853
+We looked through 18 levels in the tree
+197853              
+
+Are you done (Y/N):  N
+
+Enter a string integer to search for:  000002
+We looked through 17 levels in the tree
+000002              
+
+Are you done (Y/N):  N
+
+Enter a string integer to search for:  122687
+We looked through 1 levels in the tree
+122687              
+
+Are you done (Y/N):  N
+
+Enter a string integer to search for:  061289
+We looked through 2 levels in the tree
+061289              
+
+Are you done (Y/N):  y
+
+From start to finish, we traversed through 54 levels in the tree
+On average, we traversed through 10 levels in the tree
+BUILD SUCCESSFUL (total time: 3 minutes 20 seconds)
