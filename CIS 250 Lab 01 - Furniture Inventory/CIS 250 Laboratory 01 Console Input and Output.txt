@@ -1,0 +1,118 @@
+run:
+What would you like to do: Add a product [A], Delete a product [B], Increase the quantity of a product [C], Decrease the quantity of a product [D], Start a customer bill [E], or Quit and save the furniture inventory [F]?  G
+
+What would you like to do: Add a product [A], Delete a product [B], Increase the quantity of a product [C], Decrease the quantity of a product [D], Start a customer bill [E], or Quit and save the furniture inventory [F]?  h
+
+What would you like to do: Add a product [A], Delete a product [B], Increase the quantity of a product [C], Decrease the quantity of a product [D], Start a customer bill [E], or Quit and save the furniture inventory [F]?  48
+
+What would you like to do: Add a product [A], Delete a product [B], Increase the quantity of a product [C], Decrease the quantity of a product [D], Start a customer bill [E], or Quit and save the furniture inventory [F]?  a
+
+Enter item ID number:  11111113
+
+Enter VALID item quantity (No negative item quantities are allowed):  -99
+Enter VALID item quantity (No negative item quantities are allowed):  27
+Enter VALID item price (No negative item prices are allowed):  -199.99
+Enter VALID item price (No negative item prices are allowed):  199.99
+Enter item note:  Brass Beds
+
+Brass Beds have been added to the furniture inventory.
+What would you like to do: Add a product [A], Delete a product [B], Increase the quantity of a product [C], Decrease the quantity of a product [D], Start a customer bill [E], or Quit and save the furniture inventory [F]?  b
+
+Enter item ID number:  1298321931298
+
+Item was not found. Try again!
+What would you like to do: Add a product [A], Delete a product [B], Increase the quantity of a product [C], Decrease the quantity of a product [D], Start a customer bill [E], or Quit and save the furniture inventory [F]?  b
+
+Enter item ID number:  11111111
+
+Tables have been deleted from the furniture inventory.
+What would you like to do: Add a product [A], Delete a product [B], Increase the quantity of a product [C], Decrease the quantity of a product [D], Start a customer bill [E], or Quit and save the furniture inventory [F]?  c
+
+Enter item ID number:  280312021083
+
+Item was not found. Try again!
+What would you like to do: Add a product [A], Delete a product [B], Increase the quantity of a product [C], Decrease the quantity of a product [D], Start a customer bill [E], or Quit and save the furniture inventory [F]?  c
+
+Enter item ID number:  11111112
+
+Enter the quantity you would like to add to the current quantity of Recliners (Do not enter a negative quantity):  -66
+
+Enter the quantity you would like to add to the current quantity of Recliners (Do not enter a negative quantity):  22
+
+22 Recliners has/have been added! Bringing its total item quantity to 29
+What would you like to do: Add a product [A], Delete a product [B], Increase the quantity of a product [C], Decrease the quantity of a product [D], Start a customer bill [E], or Quit and save the furniture inventory [F]?  d
+
+Enter item ID number:  11111111
+
+Item was not found. Try again!
+What would you like to do: Add a product [A], Delete a product [B], Increase the quantity of a product [C], Decrease the quantity of a product [D], Start a customer bill [E], or Quit and save the furniture inventory [F]?  d
+
+Enter item ID number:  11111113
+
+Enter the quantity you would like to remove from the current quantity of Brass Beds (Do not enter a negative quantity):  -99
+
+Enter the quantity you would like to remove from the current quantity of Brass Beds (Do not enter a negative quantity):  9999
+
+Quantity to remove was not accepted since it brings the quantity of that item down to a negative number.
+What would you like to do: Add a product [A], Delete a product [B], Increase the quantity of a product [C], Decrease the quantity of a product [D], Start a customer bill [E], or Quit and save the furniture inventory [F]?  d
+
+Enter item ID number:  11111113
+
+Enter the quantity you would like to remove from the current quantity of Brass Beds (Do not enter a negative quantity):  8
+
+8 Brass Beds has/have been removed! Bringing its total item quantity to 19
+What would you like to do: Add a product [A], Delete a product [B], Increase the quantity of a product [C], Decrease the quantity of a product [D], Start a customer bill [E], or Quit and save the furniture inventory [F]?  e
+
+Enter customer name:  Justyce Countryman
+Enter customer address:  777 Rainbow Road
+Enter the city, state, and zip code of the customer:  Watertown, New York 13601
+Enter item ID number:  90123239804239048
+
+Customer Name: Justyce Countryman
+Customer Address: 777 Rainbow Road
+Customer City, State, and Zip Code: Watertown, New York 13601
+
+Item ID             Item Description              Item Quantity Purchased       Price Per Item
+
+Subtotal: 0.00
+Tax (8.0%): 0.00
+Total: 0.00
+
+What would you like to do: Add a product [A], Delete a product [B], Increase the quantity of a product [C], Decrease the quantity of a product [D], Start a customer bill [E], or Quit and save the furniture inventory [F]?  e
+
+Enter customer name:  Justyce Countryman
+Enter customer address:  777 Rainbow Road
+Enter the city, state, and zip code of the customer:  Watertown, New York 13601
+Enter item ID number:  11111113
+
+Enter the quantity of Brass Beds that the customer wants (Do not enter a negative quantity or a quantity that is more than what is available):  -99
+
+Enter the quantity of Brass Beds that the customer wants (Do not enter a negative quantity or a quantity that is more than what is available):  99
+
+Enter the quantity of Brass Beds that the customer wants (Do not enter a negative quantity or a quantity that is more than what is available):  14
+
+Customer Name: Justyce Countryman
+Customer Address: 777 Rainbow Road
+Customer City, State, and Zip Code: Watertown, New York 13601
+
+Item ID             Item Description              Item Quantity Purchased       Price Per Item
+11111113            Brass Beds                    14                            199.99
+
+Subtotal: 2799.86
+Tax (8.0%): 223.99
+Total: 3023.85
+
+What would you like to do: Add a product [A], Delete a product [B], Increase the quantity of a product [C], Decrease the quantity of a product [D], Start a customer bill [E], or Quit and save the furniture inventory [F]?  f
+
+BUILD SUCCESSFUL (total time: 8 minutes 31 seconds)
+
+run:
+What would you like to do: Add a product [A], Delete a product [B], Increase the quantity of a product [C], Decrease the quantity of a product [D], Start a customer bill [E], or Quit and save the furniture inventory [F]?  a
+
+Enter item ID number:  11111113
+
+Item ID is already in use!
+
+What would you like to do: Add a product [A], Delete a product [B], Increase the quantity of a product [C], Decrease the quantity of a product [D], Start a customer bill [E], or Quit and save the furniture inventory [F]?  f
+
+BUILD SUCCESSFUL (total time: 9 seconds)
