@@ -1,0 +1,279 @@
+run:
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  j
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  5
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  -5
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  0
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  f
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  a
+
+Enter the name of the calender file you want:  schoolCalender.txt
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  f
+
+First Day of Spring 2022 Semester
+1/24/22
+24 Hours
+Low
+Jefferson Community College
+Last Semester Before Graduation!
+
+Exams
+3/15/22
+Don't even know
+High
+Jefferson Community College
+My brain took a day off.
+
+Midterm Grades Due
+3/15/22
+24 Hours
+Medium
+Jefferson Community College
+Cross your fingers!
+
+Spring Break
+3/25/22
+1 Week
+High
+At home
+Probably won't even feel like spring.
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  c
+
+Enter the name of the calender file you want:  nothing.txt
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  d
+
+Enter a description:  Last Day to Drop
+Enter a date or time:  2/15/22
+Enter a duration:  24 hours
+Enter a priority:  Low
+Enter a location:  Jefferson Community College
+Enter a comment:  I'm no quitter
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  e
+
+Enter an entry (description):  nothing
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  f
+
+First Day of Spring 2022 Semester
+1/24/22
+24 Hours
+Low
+Jefferson Community College
+Last Semester Before Graduation!
+
+Exams
+3/15/22
+Don't even know
+High
+Jefferson Community College
+My brain took a day off.
+
+Midterm Grades Due
+3/15/22
+24 Hours
+Medium
+Jefferson Community College
+Cross your fingers!
+
+Spring Break
+3/25/22
+1 Week
+High
+At home
+Probably won't even feel like spring.
+
+Last Day to Drop
+2/15/22
+24 hours
+Low
+Jefferson Community College
+I'm no quitter
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  e
+
+Enter an entry (description):  Spring BREAK
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  f
+
+First Day of Spring 2022 Semester
+1/24/22
+24 Hours
+Low
+Jefferson Community College
+Last Semester Before Graduation!
+
+Exams
+3/15/22
+Don't even know
+High
+Jefferson Community College
+My brain took a day off.
+
+Midterm Grades Due
+3/15/22
+24 Hours
+Medium
+Jefferson Community College
+Cross your fingers!
+
+Last Day to Drop
+2/15/22
+24 hours
+Low
+Jefferson Community College
+I'm no quitter
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  g
+
+Enter an entry (description):  Midterm GRADES DUE
+
+Midterm Grades Due
+3/15/22
+24 Hours
+Medium
+Jefferson Community College
+Cross your fingers!
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  h
+
+Enter a date:  3/15/22
+
+Exams
+3/15/22
+Don't even know
+High
+Jefferson Community College
+My brain took a day off.
+
+Midterm Grades Due
+3/15/22
+24 Hours
+Medium
+Jefferson Community College
+Cross your fingers!
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  b
+
+Enter the name of the calender file you want:  schoolCalender.txt
+
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  a
+
+Enter the name of the calender file you want:  doctorsAppointments.txt
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  f
+
+Physical
+2/22/22
+25 Minutes
+Medium
+Doctors Office
+N/A
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  d
+
+Enter a description:  Check-Up
+Enter a date or time:  4/1/22
+Enter a duration:  40 Minutes
+Enter a priority:  Medium
+Enter a location:  Doctors Office
+Enter a comment:  ...
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  g
+
+Enter an entry (description):  Not Here
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  h
+
+Enter a date:  Still Not Here
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  h
+
+Enter a date:  4/1/22
+
+Check-Up
+4/1/22
+40 Minutes
+Medium
+Doctors Office
+...
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  h
+
+Enter a date:  2/22/22
+
+Physical
+2/22/22
+25 Minutes
+Medium
+Doctors Office
+N/A
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  b
+
+Enter the name of the calender file you want:  newDoctorsAppointments.txt
+
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  a
+
+Enter the name of the calender file you want:  nothing.txt
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  f
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  g
+
+Enter an entry (description):  ...
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  h
+
+Enter a date:  2/22/22
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  D
+
+Enter a description:  Something
+Enter a date or time:  1 Minute
+Enter a duration:  ...
+Enter a priority:  ...
+Enter a location:  ..
+Enter a comment:  ..
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  e
+
+Enter an entry (description):  Something
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  f
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  e
+
+Enter an entry (description):  Something
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  D
+
+Enter a description:  Something
+Enter a date or time:  Some Time
+Enter a duration:  Some duration
+Enter a priority:  Some priority
+Enter a location:  Some location
+Enter a comment:  Some comment
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  f
+
+Something
+Some Time
+Some duration
+Some priority
+Some location
+Some comment
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  b
+
+Enter the name of the calender file you want:  something.txt
+
+
+What would you like to do: Load a Calender [A], Save a Calender [B], Create a New Calender [C], Add an entry to a calender [D], Remove an entry from a calender [E], Display an entire calender [F], Display one entry from a calender [G], Display all entries for a specifc date from a calender [H], or Quit [I]?  i
+
+BUILD SUCCESSFUL (total time: 12 minutes 18 seconds)
