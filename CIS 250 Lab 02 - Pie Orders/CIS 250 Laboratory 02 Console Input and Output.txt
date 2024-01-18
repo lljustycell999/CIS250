@@ -1,0 +1,76 @@
+run:
+What would you like to do: Add an item quantity to the customer order [A] or Remove an item quantity from the customer order [R]?  d
+What would you like to do: Add an item quantity to the customer order [A] or Remove an item quantity from the customer order [R]?  -5
+What would you like to do: Add an item quantity to the customer order [A] or Remove an item quantity from the customer order [R]?  5
+What would you like to do: Add an item quantity to the customer order [A] or Remove an item quantity from the customer order [R]?  a
+
+Enter a VALID item number (0-4):  -5
+Enter a VALID item number (0-4):  5
+Enter a VALID item number (0-4):  0
+Enter a POSITIVE quantity:  5
+
+Are you done adding items and quantities to this customer order (Y/N)?  a
+Are you done adding items and quantities to this customer order (Y/N)?  -5
+Are you done adding items and quantities to this customer order (Y/N)?  5
+Are you done adding items and quantities to this customer order (Y/N)?  n
+
+What would you like to do: Add an item quantity to the customer order [A] or Remove an item quantity from the customer order [R]?  a
+
+Enter a VALID item number (0-4):  1
+Enter a POSITIVE quantity:  0
+
+Are you done adding items and quantities to this customer order (Y/N)?  nope
+
+What would you like to do: Add an item quantity to the customer order [A] or Remove an item quantity from the customer order [R]?  r
+
+Enter a VALID item number (0-4):  -5
+Enter a VALID item number (0-4):  5
+Enter a VALID item number (0-4):  0
+Enter a POSITIVE quantity:  -5
+Enter a POSITIVE quantity:  2
+
+Are you done adding items and quantities to this customer order (Y/N)?  n
+
+What would you like to do: Add an item quantity to the customer order [A] or Remove an item quantity from the customer order [R]?  r
+
+Enter a VALID item number (0-4):  2
+Enter a POSITIVE quantity:  55
+
+Are you done adding items and quantities to this customer order (Y/N)?  n
+
+What would you like to do: Add an item quantity to the customer order [A] or Remove an item quantity from the customer order [R]?  r
+
+Enter a VALID item number (0-4):  1
+Enter a POSITIVE quantity:  0
+
+Are you done adding items and quantities to this customer order (Y/N)?  y
+
+Quantity            Description         Price               Extended Cost       
+3                   Apple Pie           6.99                20.97               
+
+Subtotal: 20.97
+Tax (8.0%): 1.68
+Total Due: 22.65
+
+Would you like to process another customer order [P] or quit the program [Q]?  l
+Would you like to process another customer order [P] or quit the program [Q]?  -5
+Would you like to process another customer order [P] or quit the program [Q]?  5
+Would you like to process another customer order [P] or quit the program [Q]?  p
+
+What would you like to do: Add an item quantity to the customer order [A] or Remove an item quantity from the customer order [R]?  r
+
+Enter a VALID item number (0-4):  0
+Enter a POSITIVE quantity:  -99
+Enter a POSITIVE quantity:  99
+
+Are you done adding items and quantities to this customer order (Y/N)?  y
+
+Quantity            Description         Price               Extended Cost       
+
+Subtotal: 0.00
+Tax (8.0%): 0.00
+Total Due: 0.00
+
+Would you like to process another customer order [P] or quit the program [Q]?  q
+
+BUILD SUCCESSFUL (total time: 5 minutes 26 seconds)
