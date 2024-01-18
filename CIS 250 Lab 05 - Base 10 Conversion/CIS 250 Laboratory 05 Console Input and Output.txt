@@ -1,0 +1,36 @@
+run:
+Enter a base 10 number (Must be positive):  -3
+Enter a base 10 number (Must be positive):  -1
+Enter a base 10 number (Must be positive):  0
+The base 10 number of 0 is the same as 0 in any other base! Try another number!
+Enter a base 10 number (Must be positive):  3879
+
+Enter a base number (Must be between 2 and 16):  -9
+Enter a base number (Must be between 2 and 16):  0
+Enter a base number (Must be between 2 and 16):  1
+Enter a base number (Must be between 2 and 16):  18
+Enter a base number (Must be between 2 and 16):  17
+Enter a base number (Must be between 2 and 16):  8
+
+The base 10 number of 3879 is the same as 7447 in base 8.
+Are you done converting numbers? (Y/N)?  a
+Are you done converting numbers? (Y/N)?  b
+Are you done converting numbers? (Y/N)?  n
+
+Enter a base 10 number (Must be positive):  11987
+
+Enter a base number (Must be between 2 and 16):  15
+
+The base 10 number of 11987 is the same as 3842 in base 15.
+Are you done converting numbers? (Y/N)?  1
+Are you done converting numbers? (Y/N)?  -4
+Are you done converting numbers? (Y/N)?  N
+
+Enter a base 10 number (Must be positive):  11999
+
+Enter a base number (Must be between 2 and 16):  15
+
+The base 10 number of 11999 is the same as 384E in base 15.
+Are you done converting numbers? (Y/N)?  y
+
+BUILD SUCCESSFUL (total time: 3 minutes 28 seconds)
