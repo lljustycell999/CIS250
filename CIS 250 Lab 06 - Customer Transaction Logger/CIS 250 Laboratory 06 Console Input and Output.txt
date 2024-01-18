@@ -1,0 +1,160 @@
+run:
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  5
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  -5
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  $
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  h
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  e
+
+You need to open the store before you can process customers.
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  f
+
+You need to open the store before you can process customers.
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  g
+
+You need to open the store before you can process customers.
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  b
+
+How about opening the store first before you close it?
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  a
+
+The Sandwich Shop is open for business!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  A
+
+You already opened The Sandwich Shop!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  f
+
+There is nobody in either line yet!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  g
+
+Enter the register that completed the service (0-4):  5
+Enter the register that completed the service (0-4):  -5
+Enter the register that completed the service (0-4):  0
+
+The cash register you entered was not even busy!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  c
+
+Enter a cash register to open (0-4):  5
+Enter a cash register to open (0-4):  -5
+Enter a cash register to open (0-4):  0
+
+Cash Register 0 is now open!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  c
+
+Enter a cash register to open (0-4):  2
+
+Cash Register 2 is now open!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  e
+
+Enter the type of customer: (R)egular or (V)ip? P
+Enter the type of customer: (R)egular or (V)ip? 5
+Enter the type of customer: (R)egular or (V)ip? -99
+Enter the type of customer: (R)egular or (V)ip? $
+Enter the type of customer: (R)egular or (V)ip? r
+
+Note: You may not close the restaurant until all customers have been served!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  e
+
+Enter the type of customer: (R)egular or (V)ip? r
+
+Note: You may not close the restaurant until all customers have been served!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  e
+
+Enter the type of customer: (R)egular or (V)ip? V
+
+Note: You may not close the restaurant until all customers have been served!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  f
+
+Cash Register 0 is now busy with a VIP customer!
+Note: You may not close the restaurant until all customers have been served!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  c
+
+Enter a cash register to open (0-4):  0
+
+You may not open cash register 0 because it is busy right now!
+Note: You may not close the restaurant until all customers have been served!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  d
+
+Enter a cash register to close (0-4):  0
+
+You may not close cash register 0 because it is busy right now!
+Note: You may not close the restaurant until all customers have been served!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  b
+
+Note: You may not close the restaurant until all customers have been served!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  g
+
+Enter the register that completed the service (0-4):  0
+
+Note: You may not close the restaurant until all customers have been served!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  e
+
+Enter the type of customer: (R)egular or (V)ip? v
+
+Note: You may not close the restaurant until all customers have been served!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  f
+
+Cash Register 0 is now busy with a VIP customer!
+Note: You may not close the restaurant until all customers have been served!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  f
+
+Cash Register 2 is now busy with a regular customer!
+Note: You may not close the restaurant until all customers have been served!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  f
+
+There are no cash registers open yet!
+Note: You may not close the restaurant until all customers have been served!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  b
+
+Note: You may not close the restaurant until all customers have been served!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  g
+
+Enter the register that completed the service (0-4):  0
+
+Note: You may not close the restaurant until all customers have been served!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  g
+
+Enter the register that completed the service (0-4):  2
+
+Note: You may not close the restaurant until all customers have been served!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  g
+
+Enter the register that completed the service (0-4):  0
+
+The cash register you entered was not even busy!
+Note: You may not close the restaurant until all customers have been served!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  f
+
+Cash Register 0 is now busy with a regular customer!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  f
+
+There is nobody in either line yet!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  b
+
+You may not close the restaurant until all registers are no longer busy!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  g
+
+Enter the register that completed the service (0-4):  0
+
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  c
+
+Enter a cash register to open (0-4):  0
+
+Cash Register 0 is already open!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  d
+
+Enter a cash register to close (0-4):  3
+
+Cash Register 3 is already closed!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  d
+
+Enter a cash register to close (0-4):  0
+
+Cash Register 0 is now closed!
+What would you like to do: Open the store [A], Close the store [B], Open a register [C], Close a register [D], Indicate that a customer has entered [E], Indicate that a customer is being served [F], or Indicate that a customer has been served [G]?  b
+
+The Sandwich Shop is now closed! Here are the stats (in milliseconds): 
+
+                              VIP Customers                 Regular Customers             All Customers
+Average Wait Time:            8819                          237849                        123334                        
+Average Service Time:         77930                         76753                         77341                         
+BUILD SUCCESSFUL (total time: 10 minutes 10 seconds)
